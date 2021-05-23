@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
+category: sample
 ---
 
 #  안녕하세요
