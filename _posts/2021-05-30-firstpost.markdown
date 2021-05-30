@@ -7,17 +7,17 @@ category: sample
 
 #  변수
 
-###변수란?
+### 변수란?
 => 단 하나의 값을 저장 할 수 있는 공간
 
 
-###변수의 선언 
+### 변수의 선언 
 
 ex) int number; 
 
 ###변수의 명명규칙
 
-1. 대소문자가 구분되며 길이ㅇ 제한이 없다.
+1. 대소문자가 구분되며 길이의 제한이 없다.
 2. 예약어를 사용해서는 안 된다.
 3. 숫자로 시작해서는 안 된다.
 4. 특수문자는 `_` 와 `$`만을 허용 한다.
@@ -71,29 +71,29 @@ ex) ++i 가 i=i+1 보다 더 적은 명령만으로 작업하기 때문에 더 �
 이름 붙은 반복문
 
 // for문에 Loop1이라는 이름을 붙인다.
-Loop1 : for(int i=2; i <=9; i++) {
-    for(int j=1; j<=9; j++>){
-        if(j==5)
-            break Loop1;
-            System.out.println(i+"*"+j + "-" + i+j);
-    }
-}
+Loop1 : for(int i=2; i <=9; i++) {  
+    for(int j=1; j<=9; j++>){  
+        if(j==5)  
+            break Loop1;  
+            System.out.println(i+"*"+j + "-" + i+j);  
+    }  
+}  
 
-for문에 Loop1이라는 이름을 붙였다. 그리고 j가 5일때 break문을 수행하도록 했다.
-break문은 자신이 속한 하나의 반복문만 벗어날 수 있다. 하지만
-반복문에 이름을 붙여주고 break문에 반복문 이름을 지정해주면 하나 이상의 반복문도 벗어날 수 있다.
+for문에 Loop1이라는 이름을 붙였다. 그리고 j가 5일때 break문을 수행하도록 했다.  
+break문은 자신이 속한 하나의 반복문만 벗어날 수 있다. 하지만  
+반복문에 이름을 붙여주고 break문에 반복문 이름을 지정해주면 하나 이상의 반복문도 벗어날 수 있다.  
 
 # 배열
 
 ## 배열의 선언
 
 ex) int[] score = new int[5]
-ex) int[] score;
+ex) int[] score;  
     score = new int[5];
 
 ex) int[] score = {100, 90, 80, 70, 60}
 
-ex) int[] score;
+ex) int[] score;  
     score = new int[]{100,90,80,70,60}
 
 
@@ -101,8 +101,8 @@ ex) int[] score;
 
 System 클래스의 arraycopy()를 사용 하면 된다.
 
-ex) System.arraycopy(arr1,0,arr2,0,arr1.length);
-                    => arr1[0]에서 arr2[0]으로 arr1.length개의 데이터를 복사
+ex) System.arraycopy(arr1,0,arr2,0,arr1.length);  
+                    => arr1[0]에서 arr2[0]으로 arr1.length개의 데이터를 복사  
 
 ## System.currentTimeMillis();
 
