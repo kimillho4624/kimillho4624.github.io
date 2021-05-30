@@ -26,23 +26,23 @@ ex) int number;
 
 => 기본형 , 참조형
 
-## 논리형 - boolean
+### 논리형 - boolean
 
 true와 false 중 하나를 저장 할 수있다. default는 false 이다.
 
-## 문자형 - char
+### 문자형 - char
 
 char 한 가지 자료형 밖에 없다.
 
-## 정수형 - byte , short , int , long
+### 정수형 - byte , short , int , long
 
 long 타입은 반드시 접미사 L , l 붙여야 한다. 안붙이면 int로 간주한다.
 
-## 실수형 - float , double
+### 실수형 - float , double
 
 float 보다 double 이 정밀도가 높다.
 
-## 형변환
+### 형변환
 
 => 변수 또는 리터럴 타입을 다른 타입으로 변환하는 것이다.
 
@@ -62,11 +62,11 @@ ex) ++i 가 i=i+1 보다 더 적은 명령만으로 작업하기 때문에 더 �
 
 # 조건문과 반복문
 
-## 조건문
+### 조건문
 
 문자열 비교는 ==가 아닌 equals()를 사용해야 한다.
 
-## 반복문
+### 반복문
 
 이름 붙은 반복문
 
